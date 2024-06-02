@@ -1,0 +1,17 @@
+C:\Users\lipch\source\repos\PW24\PW24\bin\Debug\PW24.exe.config
+C:\Users\lipch\source\repos\PW24\PW24\bin\Debug\PW24.exe
+C:\Users\lipch\source\repos\PW24\PW24\bin\Debug\PW24.pdb
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.csproj.AssemblyReference.cache
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.Form1.resources
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.Properties.Resources.resources
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.csproj.GenerateResource.cache
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.csproj.CoreCompileInputs.cache
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.exe
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.pdb
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.Form3.resources
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.Form4.resources
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.Form5.resources
+C:\Users\lipch\source\repos\PW24\PW24\bin\Debug\PW24.exe.manifest
+C:\Users\lipch\source\repos\PW24\PW24\bin\Debug\PW24.application
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.exe.manifest
+C:\Users\lipch\source\repos\PW24\PW24\obj\Debug\PW24.application

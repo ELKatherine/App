@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PW24.exe" version="1.0.0.0" publicKeyToken="3ab3958eba258d41" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PW24" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PW24.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PW24.exe" size="18368">
+      <assemblyIdentity name="PW24" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xR0NNfHVpHNNOYKyrruxm9nMfUOiU6NDBb+R/pi8RlI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PW24.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=TERMINATOR\lipch" issuerKeyHash="b92beae25669320b341ab4fead40a912235e2421" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5IJ9LJaa0fNJ3sdkIsj6Dl4/ZKy+PawcqzHclXoa470=</DigestValue></Reference></SignedInfo><SignatureValue>vbxs1er2UsS4gFbHsUAGQxOoNQGQWu0PU5PBWGuXMC+93C1ISDKRIT0W109r9KP+4+9PZgF1H9uFsEfiRHJEIQDW2TInO3CWh06S3AEuayuInH/Gs7F94XQD/9+PK9aNTWdnaKhAl5NMNMgSwGazrQafWN2OB6j3HBgqW25rU+Y=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xyN0BbY7MVyDvT2wj5GmsAmN3Ywsa4CuJZjNjBCRKHdJkjW7Tnqek1yfDAuk2Z64aff7qeXrTTfk+5tsk+XHBs/dZ/p8ohVav003jXjSyeYeS6FKGuS/jynJR1m79yKtagFJD5aWxrXVLwDSA8aI1mLXVABhfo52CzlsohWtA20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="bde31a7a95dc31ab1cac3dbeac643f5e0efac82264c7de49f3d19a962c7d82e4" Description="" Url=""><as:assemblyIdentity name="PW24.exe" version="1.0.0.0" publicKeyToken="3ab3958eba258d41" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TERMINATOR\lipch</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>PqrWQzwzXWhVGxDstgLMdRlaIQTyBDI+MYl/ia1PjS0=</DigestValue></Reference></SignedInfo><SignatureValue>aIhNoAO+eNgBufSlhZZJYyhQqyaj4/dSPr2ie1vroy1xPgXABpUJaff5gMokeZzPK4jBj3RFqJ1qAiY2BaFRAYusj3+GJRUn2JLPwVYjxzXNvUi/lTbejBJ9B55+ndnZdWSnIafXLKPhZUUhjoRwHOG3uxw+YQ3yyQqRy98K9s0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xyN0BbY7MVyDvT2wj5GmsAmN3Ywsa4CuJZjNjBCRKHdJkjW7Tnqek1yfDAuk2Z64aff7qeXrTTfk+5tsk+XHBs/dZ/p8ohVav003jXjSyeYeS6FKGuS/jynJR1m79yKtagFJD5aWxrXVLwDSA8aI1mLXVABhfo52CzlsohWtA20=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQKsuB6k71+6JCMMNX0YpXPjANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAVABFAFIATQBJAE4AQQBUAE8AUgBcAGwAaQBwAGMAaDAeFw0yNDA1MjcxMjQ5NDBaFw0yNTA1MjcxODQ5NDBaMCsxKTAnBgNVBAMeIABUAEUAUgBNAEkATgBBAFQATwBSAFwAbABpAHAAYwBoMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHI3QFtjsxXIO9PbCPkaawCY3djCxrgK4lmM2MEJEod0mSNbtOep6TXJ8MC6TZnrhp9/up5etNN+T7m2yT5ccGz91n+nyiFVq/TTeNeNLJ5h5LoUoa5L+PKclHWbv3Iq1qAUkPlpbGtdUvANIDxojWYtdUAGF+jnYLOWyiFa0DbQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAInmvMHUkDXrofKENyhFycJfjT9DsY43F9U6c6sDjYaVhFr4BjvdkyAcN7/QWRl5TPxIRF4wGv68wnWdTyx1pD/I7895TKb9EdPDe+zK9ykIhwoV69iWxvTag2lHLqsLjM15zdtB70r/HoThDrRoi6k1lIPgmymQUg8HkDGDBm/0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
